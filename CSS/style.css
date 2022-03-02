@@ -1,0 +1,28 @@
+*{
+    margin-left: 90px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+body {background: #ff7f50;}
+
+.bagbody {
+    background: #a52a2a;
+    height: 140px;
+    width: 200px;
+    /*position: static; - Elements show up underneath previous elements*/
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    margin: 10px;
+}
+.handle {
+    background: #913434; 
+    height: 10px;
+    width: 40px;
+    /*position: relative; - Position elements relative to previous static elements. */
+    position: absolute;
+    top: 190px;
+    left: 480px;
+    margin: 10px;
+}
